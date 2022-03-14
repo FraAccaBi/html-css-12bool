@@ -1,0 +1,10 @@
+.blue{
+    background-color: #006CFA;
+    color: antiquewhite;
+    border: 1px solid white;
+}
+.green{
+    background-color: #00E165;
+    color: antiquewhite;
+    border: 1px solid #006CFA;    
+}
