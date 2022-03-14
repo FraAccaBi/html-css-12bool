@@ -1,0 +1,47 @@
+/* Common */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Typography */
+.text-center{
+    text-align: center;
+}
+
+/* Utility spaces */
+
+.p-05{
+    padding: 0.5rem;
+}
+
+/*Grid structure*/
+
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+}
+[class^="col"]{
+    padding: 0 1rem;
+}
+[class*="col-"]{
+    flex: 0 0 auto;
+}
+.col {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+}
+
+.col-1{
+    flex-basis: calc((100% / 12) * 1);
+    max-width: calc((100% / 12) * 1);
+}

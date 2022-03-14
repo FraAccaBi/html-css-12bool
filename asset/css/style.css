@@ -1,0 +1,6 @@
+.debug [class^="col"]{
+    background-color: #006CFA;
+    color: antiquewhite;
+    border: 1px solid white;
+    height: 2rem;
+}
